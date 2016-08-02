@@ -63,4 +63,12 @@ public class CalcTest {
 		//assert
 		assertEquals(2,result,0.1);
 	}
+	@Test(expected=ArithmeticException.class)
+	public void checkDivideByZero(){
+		ICalc calc;
+		calc=new Calc();
+		int val1=20;
+		int val2=0;
+		calc.divi(val1,val2);
+	}
 }
