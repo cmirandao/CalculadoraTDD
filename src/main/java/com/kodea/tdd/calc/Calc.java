@@ -1,6 +1,9 @@
 package com.kodea.tdd.calc;
 
-public class Calc {
+import org.springframework.stereotype.Service;
+
+@Service
+public class Calc implements ICalc{
 
 	public double add(double val1, double val2) {
 		// TODO Auto-generated method stub

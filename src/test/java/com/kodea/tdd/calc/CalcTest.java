@@ -65,7 +65,7 @@ public class CalcTest {
 	}
 	@Test(expected=ArithmeticException.class)
 	public void checkDivideByZero(){
-		Calc calc;
+		ICalc calc;
 		calc=new Calc();
 		int val1=20;
 		int val2=0;

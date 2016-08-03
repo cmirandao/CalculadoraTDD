@@ -15,7 +15,7 @@ public class Main {
 				System.out.println("Debe ingresar +, -, * o /");
 		}
 		while(!(op.equals("+") || op.equals("-") || op.equals("*") || op.equals("/")));
-		
+		//Falta verificar que solo ingrese numeros
 		System.out.println("Ingrese primer operando:");
 		a=n.nextDouble();
 		System.out.println("Ingrese segundo operando:");
